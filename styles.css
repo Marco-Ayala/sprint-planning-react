@@ -1,0 +1,16 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  width: 100%;
+  max-width: 300px;
+}
+
+@media (min-width: 768px) {
+  .gallery {
+    justify-content: center;
+  }
+}
